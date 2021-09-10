@@ -703,3 +703,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.09.10-06.37.01:540][325]AssetCheck: New page: Asset Save: multiple assets
 [2021.09.10-06.37.01:540][325]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
 [2021.09.10-06.37.01:540][325]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.41.18:828][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.09.10-06.41.18:840][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.09.10-06.41.18:858][252]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMapE70D030541B50F3DA84308A07867158E.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
+[2021.09.10-06.41.18:876][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
+[2021.09.10-06.41.18:888][252]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltData4278D87B4450A7F73726FFB4A1B0E1D1.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
+[2021.09.10-06.41.18:899][252]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.10-06.41.18:899][252]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
+[2021.09.10-06.41.18:899][252]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.51.19:108][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.09.10-06.51.19:110][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/NewMap' took 0.010
+[2021.09.10-06.51.19:111][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/shit/nedladdning] ([1] browsable assets)...
+[2021.09.10-06.51.19:113][212]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/shit/nedladdning.nedladdning]
+[2021.09.10-06.51.19:113][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/shit/nedladdning]
+[2021.09.10-06.51.19:115][212]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/nedladdning_Auto16E3A46884ED12683DB19EDAADF91CA88.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Autosaves/Game/shit/nedladdning_Auto1.uasset'
+[2021.09.10-06.51.19:116][212]LogFileHelpers: Auto-saving content packages took 0.006
