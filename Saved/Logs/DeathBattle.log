@@ -681,3 +681,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.09.10-06.27.27:994][784]AssetCheck: New page: Asset Save: multiple assets
 [2021.09.10-06.27.27:994][784]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
 [2021.09.10-06.27.27:994][784]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.33.51:760][158]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.09.10-06.33.54:504][316]LogActorFactory: Actor Factory created Cube
+[2021.09.10-06.33.55:287][363]LogActorFactory: Actor Factory created Cube
+[2021.09.10-06.33.56:481][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.09.10-06.33.56:492][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.09.10-06.33.56:512][430]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMap3272D99345D5D55CC29AE8B96DF5FA50.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
+[2021.09.10-06.33.56:530][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
+[2021.09.10-06.33.56:542][430]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltData015A8A4B404CF88AAAF2669F2F7510A2.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
+[2021.09.10-06.33.56:553][430]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.10-06.33.56:553][430]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
+[2021.09.10-06.33.56:553][430]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
