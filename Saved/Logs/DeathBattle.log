@@ -1,8 +1,8 @@
-﻿Log file open, 09/10/21 08:26:50
+﻿Log file open, 09/10/21 08:35:21
 LogInit: Display: Running engine for game: DeathBattle
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.176670
+LogStats: Stats thread started at 0.163179
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -140,13 +140,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=ralle.jacobsson -epicuserid=df1c9455e3f349f5a0e60309858c95f8 -epiclocale=en -epicsandboxid=ue
-LogInit: Base Directory: C:/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -177,7 +177,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -195,500 +195,526 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.09.10-06.26.51:098][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.09.10-06.26.51:098][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.09.10-06.26.51:098][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:098][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.09.10-06.26.51:098][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:098][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.09.10-06.26.51:099][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:099][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.09.10-06.26.51:101][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.09.10-06.26.51:102][  0]LogInit: Selected Device Profile: [Windows]
-[2021.09.10-06.26.51:102][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.09.10-06.26.51:102][  0]LogHAL: Display: Platform has ~ 16 GB [17044439040 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.09.10-06.26.51:102][  0]LogInit: Going up to parent DeviceProfile []
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.09.10-06.26.51:102][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.09.10-06.26.51:103][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
-[2021.09.10-06.26.51:103][  0]LogInit: Computer: 5CD92376TC
-[2021.09.10-06.26.51:104][  0]LogInit: User: rasmusjacobsson
-[2021.09.10-06.26.51:104][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.09.10-06.26.51:104][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.09.10-06.26.51:104][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.09.10-06.26.51:104][  0]LogMemory: Platform Memory Stats for Windows
-[2021.09.10-06.26.51:104][  0]LogMemory: Process Physical Memory: 113.43 MB used, 113.43 MB peak
-[2021.09.10-06.26.51:104][  0]LogMemory: Process Virtual Memory: 95.91 MB used, 95.91 MB peak
-[2021.09.10-06.26.51:104][  0]LogMemory: Physical Memory: 6106.64 MB used,  10148.21 MB free, 16254.84 MB total
-[2021.09.10-06.26.51:104][  0]LogMemory: Virtual Memory: 5143.16 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2021.09.10-06.26.51:108][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.09.10-06.26.51:144][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.09.10-06.26.51:144][  0]LogInit: Using OS detected language (sv-SE).
-[2021.09.10-06.26.51:144][  0]LogInit: Using OS detected locale (sv-SE).
-[2021.09.10-06.26.51:147][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2021.09.10-06.26.51:317][  0]LogInit: Setting process to per monitor DPI aware
-[2021.09.10-06.26.51:350][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.09.10-06.26.51:350][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.09.10-06.26.51:486][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.09.10-06.26.51:486][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.09.10-06.26.51:486][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.09.10-06.26.51:486][  0]LogD3D11RHI: D3D11 adapters:
-[2021.09.10-06.26.51:550][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX250' (Feature Level 11_0)
-[2021.09.10-06.26.51:550][  0]LogD3D11RHI:       1983/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.09.10-06.26.51:569][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2021.09.10-06.26.51:569][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.09.10-06.26.51:571][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.09.10-06.26.51:571][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.09.10-06.26.51:571][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.09.10-06.26.51:586][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.09.10-06.26.51:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1d13 (for the marketing name, search the web for "GPU Device Id")
-[2021.09.10-06.26.51:586][  0]LogWindows: EnumDisplayDevices:
-[2021.09.10-06.26.51:586][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2021.09.10-06.26.51:586][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2021.09.10-06.26.51:586][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2021.09.10-06.26.51:587][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2021.09.10-06.26.51:587][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX250
-[2021.09.10-06.26.51:587][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2021.09.10-06.26.51:587][  0]LogD3D11RHI:      Driver Date: Unknown
-[2021.09.10-06.26.51:587][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
-[2021.09.10-06.26.51:625][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.09.10-06.26.51:625][  0]LogD3D11RHI: Async texture creation enabled
-[2021.09.10-06.26.51:625][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.09.10-06.26.51:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.09.10-06.26.51:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.09.10-06.26.51:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.09.10-06.26.51:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.09.10-06.26.51:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.09.10-06.26.51:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.09.10-06.26.51:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.09.10-06.26.51:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.09.10-06.26.51:984][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.09.10-06.26.51:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.09.10-06.26.52:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.09.10-06.26.52:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.09.10-06.26.52:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.09.10-06.26.52:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.09.10-06.26.52:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.09.10-06.26.52:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.09.10-06.26.52:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.09.10-06.26.52:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.09.10-06.26.52:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.09.10-06.26.52:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.09.10-06.26.52:090][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.09.10-06.26.52:097][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.09.10-06.26.52:151][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Intermediate/Shaders/WorkingDirectory/18848/).
-[2021.09.10-06.26.52:151][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rasmus.jacobsson/AppData/Local/Temp/UnrealShaderWorkingDir/6460EA434AB69A69424DCF8DE716555D/'.
-[2021.09.10-06.26.52:151][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.09.10-06.26.52:151][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.09.10-06.26.52:151][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.09.10-06.26.52:915][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.09.10-06.26.52:967][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/rasmus.jacobsson/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.09.10-06.26.52:968][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rasmus.jacobsson/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.09.10-06.26.52:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.09.10-06.26.52:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.09.10-06.26.52:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.09.10-06.26.52:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.09.10-06.26.52:977][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.09.10-06.26.52:978][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.09.10-06.26.52:978][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.09.10-06.26.52:979][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rasmus.jacobsson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.09.10-06.26.52:979][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.09.10-06.26.52:979][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.09.10-06.26.53:028][  0]LogSlate: Using FreeType 2.10.0
-[2021.09.10-06.26.53:028][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.09.10-06.26.53:055][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
-[2021.09.10-06.26.53:269][  0]LogInit: Selected Device Profile: [Windows]
-[2021.09.10-06.26.53:376][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.09.10-06.26.53:377][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.09.10-06.26.53:377][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.09.10-06.26.53:377][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.09.10-06.26.53:377][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.09.10-06.26.53:391][  0]LogNetVersion: DeathBattle 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2666842768)
-[2021.09.10-06.26.53:813][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F3BCE0F880), frame # 0
-[2021.09.10-06.26.53:814][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F3BCE16AC0), frame # 0
-[2021.09.10-06.26.53:815][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3BCE65E00), frame # 0
-[2021.09.10-06.26.53:869][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.048482 seconds
-[2021.09.10-06.26.53:873][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.09.10-06.26.53:874][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.09.10-06.26.53:874][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.09.10-06.26.54:173][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.09.10-06.26.54:177][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.09.10-06.26.54:299][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.54:299][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.54:302][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.54:305][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.54:310][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.54:525][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.09.10-06.26.54:543][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.09.10-06.26.54:543][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.09.10-06.26.54:587][  0]LogOcInput: OculusInput pre-init called
-[2021.09.10-06.26.54:597][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.09.10-06.26.54:597][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.09.10-06.26.54:654][  0]LogEngine: Initializing Engine...
-[2021.09.10-06.26.54:656][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.09.10-06.26.54:656][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.09.10-06.26.54:656][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.09.10-06.26.54:778][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.09.10-06.26.54:787][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.09.10-06.26.54:787][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3BF4EBC00), frame # 0
-[2021.09.10-06.26.54:787][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F3BF544900), frame # 0
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.09.10-06.26.54:803][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.09.10-06.26.54:803][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.09.10-06.26.54:803][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.09.10-06.26.54:814][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.09.10-06.26.54:814][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.09.10-06.26.54:965][  0]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek(R) Audio)
-[2021.09.10-06.26.54:967][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.09.10-06.26.54:970][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.09.10-06.26.54:970][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.09.10-06.26.54:970][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.09.10-06.26.54:971][  0]LogInit: FAudioDevice initialized.
-[2021.09.10-06.26.54:971][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.09.10-06.26.55:050][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/rasmus.jacobsson/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.09.10-06.26.55:051][  0]LogInit: Texture streaming: Enabled
-[2021.09.10-06.26.55:065][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.09.10-06.26.55:065][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.09.10-06.26.55:066][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.09.10-06.26.55:101][  0]LogInit: Transaction tracking system initialized
-[2021.09.10-06.26.55:119][  0]BlueprintLog: New page: Editor Load
-[2021.09.10-06.26.55:180][  0]LocalizationService: Localization service is disabled
-[2021.09.10-06.26.55:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.09.10-06.26.55:328][  0]LogCook: Display: Mobile HDR setting 1
-[2021.09.10-06.26.55:444][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/' took 0.01s
-[2021.09.10-06.26.55:665][  0]SourceControl: Source control is disabled
-[2021.09.10-06.26.55:665][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.894
-[2021.09.10-06.26.55:665][  0]Cmd: MAP LOAD FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.09.10-06.26.55:670][  0]LightingResults: New page: Lighting Build
-[2021.09.10-06.26.55:671][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.09.10-06.26.55:671][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.09.10-06.26.55:671][  0]MapCheck: New page: Map Check
-[2021.09.10-06.26.55:671][  0]LightingResults: New page: Lighting Build
-[2021.09.10-06.26.55:681][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F3BF4EBC00), frame # 0
-[2021.09.10-06.26.55:681][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F3BF544900), frame # 0
-[2021.09.10-06.26.55:682][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2021.09.10-06.26.56:239][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2021.09.10-06.26.56:239][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3B3419800), frame # 0
-[2021.09.10-06.26.56:239][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F3B2FBE980), frame # 0
-[2021.09.10-06.26.56:258][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.09.10-06.26.56:270][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2021.09.10-06.26.56:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.09.10-06.26.56:271][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,208ms to complete.
-[2021.09.10-06.26.56:271][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.606
-[2021.09.10-06.26.56:273][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.502
-[2021.09.10-06.26.56:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.10-06.26.56:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.10-06.26.56:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.10-06.26.56:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.10-06.26.56:467][  0]LogCollectionManager: Loaded 0 collections in 0.001741 seconds
-[2021.09.10-06.26.56:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/Collections/' took 0.00s
-[2021.09.10-06.26.56:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Developers/rasmusjacobsson/Collections/' took 0.00s
-[2021.09.10-06.26.56:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Collections/' took 0.00s
-[2021.09.10-06.26.56:502][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3436 classes and 826 folders.
-[2021.09.10-06.26.56:512][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.09.10-06.26.56:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.09.10-06.26.56:939][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.09.10-06.26.56:992][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.09.10-06.26.56:992][  0]LogLoad: (Engine Initialization) Total time: 7.22 seconds
-[2021.09.10-06.26.56:992][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.09.10-06.26.57:046][  0]LogAssetRegistry: Asset discovery search completed in 3.9920 seconds
-[2021.09.10-06.26.57:051][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.09.10-06.26.57:053][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.09.10-06.26.57:059][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.09.10-06.26.57:060][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.09.10-06.26.57:074][  0]LogSlate: Took 0.006355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.09.10-06.26.57:195][  0]LogSlate: Took 0.005738 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.09.10-06.26.57:209][  1]LogRenderer: Reallocating scene render targets to support 620x328 Format 10 NumSamples 1 (Frame:1).
-[2021.09.10-06.27.05:027][453]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.09.10-06.27.05:119][453]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/NewMap.NewMap
-[2021.09.10-06.27.05:130][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
-[2021.09.10-06.27.05:131][453]Cmd: MAP LOAD FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.09.10-06.27.05:131][453]LightingResults: New page: Lighting Build
-[2021.09.10-06.27.05:131][453]LoadErrors: New page: Loading map: NewMap.umap
-[2021.09.10-06.27.05:133][453]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.09.10-06.27.05:133][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.09.10-06.27.05:133][453]MapCheck: New page: Map Check
-[2021.09.10-06.27.05:133][453]LightingResults: New page: Lighting Build
-[2021.09.10-06.27.05:142][453]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F3B3419800), frame # 453
-[2021.09.10-06.27.05:142][453]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F3B2FBE980), frame # 453
-[2021.09.10-06.27.05:143][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2021.09.10-06.27.05:151][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.09.10-06.27.05:151][453]LogAIModule: Creating AISystem for world NewMap
-[2021.09.10-06.27.05:152][453]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3B33B6C00), frame # 453
-[2021.09.10-06.27.05:152][453]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F3B3490180), frame # 453
-[2021.09.10-06.27.05:162][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2021.09.10-06.27.05:176][453]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.09.10-06.27.05:176][453]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,098ms to complete.
-[2021.09.10-06.27.05:176][453]LogFileHelpers: Loading map 'NewMap' took 0.045
-[2021.09.10-06.27.06:608][538]LogEditorViewport: Clicking on Actor (LMB): test_C (test)
-[2021.09.10-06.27.24:242][573]LogActorFactory: Actor Factory created Cube
-[2021.09.10-06.27.25:844][668]LogActorFactory: Actor Factory created Cube
-[2021.09.10-06.27.27:906][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.09.10-06.27.27:917][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2021.09.10-06.27.27:942][784]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMapA57E64714F52BFE30395448EC252AE8F.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
-[2021.09.10-06.27.27:962][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
-[2021.09.10-06.27.27:978][784]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltData78E97E2240EF5DDB00E0FE9A95F58B7A.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
-[2021.09.10-06.27.27:994][784]AssetCheck: New page: Asset Save: multiple assets
-[2021.09.10-06.27.27:994][784]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
-[2021.09.10-06.27.27:994][784]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
-[2021.09.10-06.33.51:760][158]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2021.09.10-06.33.54:504][316]LogActorFactory: Actor Factory created Cube
-[2021.09.10-06.33.55:287][363]LogActorFactory: Actor Factory created Cube
-[2021.09.10-06.33.56:481][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.09.10-06.33.56:492][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
-[2021.09.10-06.33.56:512][430]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMap3272D99345D5D55CC29AE8B96DF5FA50.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
-[2021.09.10-06.33.56:530][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
-[2021.09.10-06.33.56:542][430]LogSavePackage: Moving '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltData015A8A4B404CF88AAAF2669F2F7510A2.tmp' to '../../../../../Users/rasmus.jacobsson/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
-[2021.09.10-06.33.56:553][430]AssetCheck: New page: Asset Save: multiple assets
-[2021.09.10-06.33.56:553][430]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
-[2021.09.10-06.33.56:553][430]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.35.21:678][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.09.10-06.35.21:678][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.09.10-06.35.21:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:678][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.09.10-06.35.21:679][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:679][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-06.35.21:681][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-06.35.21:682][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.10-06.35.21:682][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.09.10-06.35.21:682][  0]LogHAL: Display: Platform has ~ 16 GB [17009516544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.09.10-06.35.21:682][  0]LogInit: Going up to parent DeviceProfile []
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-06.35.21:682][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-06.35.21:683][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.09.10-06.35.21:684][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.09.10-06.35.21:684][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.09.10-06.35.21:684][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.09.10-06.35.21:684][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Config/Windows/Engine.ini]
+[2021.09.10-06.35.21:684][  0]LogInit: Computer: 5CD02327XZ
+[2021.09.10-06.35.21:684][  0]LogInit: User: gustavanderssongut
+[2021.09.10-06.35.21:684][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.09.10-06.35.21:684][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.09.10-06.35.21:684][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.09.10-06.35.21:684][  0]LogMemory: Platform Memory Stats for Windows
+[2021.09.10-06.35.21:684][  0]LogMemory: Process Physical Memory: 113.71 MB used, 113.72 MB peak
+[2021.09.10-06.35.21:684][  0]LogMemory: Process Virtual Memory: 96.21 MB used, 96.21 MB peak
+[2021.09.10-06.35.21:684][  0]LogMemory: Physical Memory: 9256.89 MB used,  6964.65 MB free, 16221.54 MB total
+[2021.09.10-06.35.21:684][  0]LogMemory: Virtual Memory: 5143.16 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.09.10-06.35.21:689][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.09.10-06.35.21:719][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.09.10-06.35.21:719][  0]LogInit: Using OS detected language (sv-SE).
+[2021.09.10-06.35.21:719][  0]LogInit: Using OS detected locale (sv-SE).
+[2021.09.10-06.35.21:722][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2021.09.10-06.35.21:875][  0]LogInit: Setting process to per monitor DPI aware
+[2021.09.10-06.35.21:908][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.09.10-06.35.21:908][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.09.10-06.35.22:035][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.10-06.35.22:035][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.09.10-06.35.22:035][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.09.10-06.35.22:035][  0]LogD3D11RHI: D3D11 adapters:
+[2021.09.10-06.35.22:771][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX250' (Feature Level 11_0)
+[2021.09.10-06.35.22:771][  0]LogD3D11RHI:       1983/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.09.10-06.35.22:788][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.09.10-06.35.22:788][  0]LogD3D11RHI:       128/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.09.10-06.35.22:790][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.09.10-06.35.22:790][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.09.10-06.35.22:790][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.09.10-06.35.22:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.09.10-06.35.22:804][  0]LogD3D11RHI:     GPU DeviceId: 0x1d13 (for the marketing name, search the web for "GPU Device Id")
+[2021.09.10-06.35.22:804][  0]LogWindows: EnumDisplayDevices:
+[2021.09.10-06.35.22:805][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.09.10-06.35.22:805][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.09.10-06.35.22:805][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.09.10-06.35.22:805][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.09.10-06.35.22:805][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX250
+[2021.09.10-06.35.22:805][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.09.10-06.35.22:805][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.09.10-06.35.22:805][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
+[2021.09.10-06.35.22:839][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.09.10-06.35.22:839][  0]LogD3D11RHI: Async texture creation enabled
+[2021.09.10-06.35.22:839][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.09.10-06.35.22:852][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.09.10-06.35.23:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.09.10-06.35.23:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.09.10-06.35.23:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.09.10-06.35.23:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.09.10-06.35.23:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.09.10-06.35.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.09.10-06.35.23:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.09.10-06.35.23:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.09.10-06.35.23:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.09.10-06.35.23:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.09.10-06.35.23:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.09.10-06.35.23:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.09.10-06.35.23:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.09.10-06.35.23:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.09.10-06.35.23:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.09.10-06.35.23:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.09.10-06.35.23:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.09.10-06.35.23:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.09.10-06.35.23:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.09.10-06.35.23:416][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.09.10-06.35.23:423][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.09.10-06.35.23:484][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Intermediate/Shaders/WorkingDirectory/428/).
+[2021.09.10-06.35.23:484][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gustav.anderssongut/AppData/Local/Temp/UnrealShaderWorkingDir/21F7F9C54116B7E551D31EAE323C3DC7/'.
+[2021.09.10-06.35.23:485][  0]LogXGEController: Cleaning working directory: C:/Users/gustav.anderssongut/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.09.10-06.35.23:485][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.09.10-06.35.23:485][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.09.10-06.35.23:485][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.09.10-06.35.24:390][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.09.10-06.35.24:447][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/gustav.anderssongut/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.10-06.35.24:447][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gustav.anderssongut/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.09.10-06.35.24:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.09.10-06.35.24:448][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.09.10-06.35.24:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-06.35.24:448][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.09.10-06.35.24:461][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.09.10-06.35.24:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-06.35.24:461][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.09.10-06.35.24:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gustav.anderssongut/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.09.10-06.35.24:463][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.09.10-06.35.24:463][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.09.10-06.35.24:529][  0]LogSlate: Using FreeType 2.10.0
+[2021.09.10-06.35.24:530][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.09.10-06.35.24:558][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2021.09.10-06.35.24:964][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.10-06.35.25:146][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.09.10-06.35.25:146][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.09.10-06.35.25:146][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.09.10-06.35.25:146][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.09.10-06.35.25:146][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.09.10-06.35.25:165][  0]LogNetVersion: DeathBattle 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2666842768)
+[2021.09.10-06.35.25:838][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EB273AF880), frame # 0
+[2021.09.10-06.35.25:838][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB273E47C0), frame # 0
+[2021.09.10-06.35.25:840][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB27419E00), frame # 0
+[2021.09.10-06.35.25:915][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.066121 seconds
+[2021.09.10-06.35.25:925][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.09.10-06.35.25:925][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.09.10-06.35.25:925][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.09.10-06.35.26:550][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.09.10-06.35.26:558][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.09.10-06.35.26:674][  0]LogLinker: Warning: Failed to load '/Game/2DSideScrollerBP/2DSideScrollerOverview': Can't find file.
+[2021.09.10-06.35.26:674][  0]LogLinker: Warning: Failed to load '/Game/2DSideScrollerBP/2DSideScrollerOverview': Can't find file.
+[2021.09.10-06.35.26:674][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2021.09.10-06.35.26:742][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.26:742][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.26:750][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.26:757][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.26:771][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.27:153][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.09.10-06.35.27:187][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.10-06.35.27:187][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.10-06.35.27:278][  0]LogOcInput: OculusInput pre-init called
+[2021.09.10-06.35.27:295][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.09.10-06.35.27:295][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.09.10-06.35.27:405][  0]LogEngine: Initializing Engine...
+[2021.09.10-06.35.27:407][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.10-06.35.27:407][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.09.10-06.35.27:408][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.09.10-06.35.27:645][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.09.10-06.35.27:661][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.09.10-06.35.27:661][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB2D823C00), frame # 0
+[2021.09.10-06.35.27:661][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB2D88C680), frame # 0
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.10-06.35.27:683][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.10-06.35.27:683][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.10-06.35.27:684][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.10-06.35.27:684][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.10-06.35.27:714][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.10-06.35.27:714][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.09.10-06.35.27:781][  0]LogAudioMixer: Display: Using Audio Device Högtalare (Realtek(R) Audio)
+[2021.09.10-06.35.27:785][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.10-06.35.27:788][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.10-06.35.27:788][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.10-06.35.27:790][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.10-06.35.27:792][  0]LogInit: FAudioDevice initialized.
+[2021.09.10-06.35.27:792][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.09.10-06.35.27:863][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/gustav.anderssongut/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.10-06.35.27:864][  0]LogInit: Texture streaming: Enabled
+[2021.09.10-06.35.27:889][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.09.10-06.35.27:889][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.09.10-06.35.27:892][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.09.10-06.35.27:958][  0]LogInit: Transaction tracking system initialized
+[2021.09.10-06.35.27:991][  0]BlueprintLog: New page: Editor Load
+[2021.09.10-06.35.28:103][  0]LocalizationService: Localization service is disabled
+[2021.09.10-06.35.28:342][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.09.10-06.35.28:343][  0]LogCook: Display: Mobile HDR setting 1
+[2021.09.10-06.35.28:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/' took 0.01s
+[2021.09.10-06.35.28:936][  0]SourceControl: Source control is disabled
+[2021.09.10-06.35.28:936][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.453
+[2021.09.10-06.35.28:936][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.09.10-06.35.28:937][  0]LightingResults: New page: Lighting Build
+[2021.09.10-06.35.28:938][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.09.10-06.35.28:938][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.10-06.35.28:938][  0]MapCheck: New page: Map Check
+[2021.09.10-06.35.28:938][  0]LightingResults: New page: Lighting Build
+[2021.09.10-06.35.28:954][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB2D823C00), frame # 0
+[2021.09.10-06.35.28:954][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB2D88C680), frame # 0
+[2021.09.10-06.35.28:955][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.09.10-06.35.29:322][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.09.10-06.35.29:322][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB1A211800), frame # 0
+[2021.09.10-06.35.29:322][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB1A226AC0), frame # 0
+[2021.09.10-06.35.29:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.09.10-06.35.29:358][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.09.10-06.35.29:358][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.09.10-06.35.29:359][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,217ms to complete.
+[2021.09.10-06.35.29:359][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.423
+[2021.09.10-06.35.29:361][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.878
+[2021.09.10-06.35.29:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-06.35.29:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-06.35.29:532][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-06.35.29:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-06.35.29:554][  0]LogCollectionManager: Loaded 0 collections in 0.003331 seconds
+[2021.09.10-06.35.29:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Collections/' took 0.00s
+[2021.09.10-06.35.29:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Developers/gustavanderssongut/Collections/' took 0.00s
+[2021.09.10-06.35.29:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Collections/' took 0.00s
+[2021.09.10-06.35.29:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 3436 classes and 826 folders.
+[2021.09.10-06.35.29:580][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.09.10-06.35.29:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.09.10-06.35.29:682][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.09.10-06.35.29:759][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.09.10-06.35.29:760][  0]LogLoad: (Engine Initialization) Total time: 9.28 seconds
+[2021.09.10-06.35.29:760][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.09.10-06.35.29:823][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.09.10-06.35.29:825][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.09.10-06.35.29:828][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.09.10-06.35.29:838][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.09.10-06.35.30:023][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.09.10-06.35.30:055][  1]LogAssetRegistry: Asset discovery search completed in 5.4980 seconds
+[2021.09.10-06.35.30:063][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.09.10-06.35.30:080][  2]LogRenderer: Reallocating scene render targets to support 800x304 Format 10 NumSamples 1 (Frame:1).
+[2021.09.10-06.35.34:068][414]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.09.10-06.35.34:115][414]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/NewMap.NewMap
+[2021.09.10-06.35.34:130][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.09.10-06.35.34:131][414]Cmd: MAP LOAD FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.09.10-06.35.34:131][414]LightingResults: New page: Lighting Build
+[2021.09.10-06.35.34:131][414]LoadErrors: New page: Loading map: NewMap.umap
+[2021.09.10-06.35.34:172][414]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.10-06.35.34:172][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.10-06.35.34:172][414]MapCheck: New page: Map Check
+[2021.09.10-06.35.34:172][414]LightingResults: New page: Lighting Build
+[2021.09.10-06.35.34:185][414]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB1A211800), frame # 414
+[2021.09.10-06.35.34:185][414]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB1A226AC0), frame # 414
+[2021.09.10-06.35.34:186][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.09.10-06.35.34:192][414]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.09.10-06.35.34:192][414]LogAIModule: Creating AISystem for world NewMap
+[2021.09.10-06.35.34:192][414]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB2DCC2800), frame # 414
+[2021.09.10-06.35.34:192][414]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB1A226C00), frame # 414
+[2021.09.10-06.35.34:207][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.09.10-06.35.34:233][414]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.09.10-06.35.34:234][414]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,433ms to complete.
+[2021.09.10-06.35.34:234][414]LogFileHelpers: Loading map 'NewMap' took 0.104
+[2021.09.10-06.36.03:033][919]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gustav.anderssongut\Downloads\nedladdning.png)
+[2021.09.10-06.36.03:034][919]LogTexture: Display: Building textures: nedladdning (AutoDXT, 96X96)
+[2021.09.10-06.36.22:715][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.09.10-06.36.23:192][ 49]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.09.10-06.36.24:125][151]LogEditorViewport: Clicking on Actor (LMB): test_C (test)
+[2021.09.10-06.36.26:051][372]Cmd: EDIT COPY
+[2021.09.10-06.36.26:838][464]Cmd: EDIT PASTE
+[2021.09.10-06.36.33:747][268]Cmd: EDIT COPY
+[2021.09.10-06.36.36:320][565]LogEditorViewport: Clicking on Actor (LMB): test_C (test)
+[2021.09.10-06.36.40:559][ 53]Cmd: TRANSACTION UNDO
+[2021.09.10-06.36.40:559][ 53]LogEditorTransaction: Undo Move Actors
+[2021.09.10-06.36.43:902][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.09.10-06.36.46:310][641]LogEditorViewport: Clicking on Actor (LMB): test_C (test2)
+[2021.09.10-06.36.57:422][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.09.10-06.36.57:438][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.09.10-06.36.57:463][898]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMapCCBC1B02478D7355501A939BD6870E7D.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
+[2021.09.10-06.36.57:489][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
+[2021.09.10-06.36.57:507][898]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltDataE849DB214FB40A107CCC61A80D928E2A.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
+[2021.09.10-06.36.57:529][898]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.10-06.36.57:529][898]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
+[2021.09.10-06.36.57:529][898]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.37.01:446][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.09.10-06.37.01:461][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.09.10-06.37.01:484][325]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMapA3F6869444388F65E3D3B4B16B179A44.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
+[2021.09.10-06.37.01:507][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
+[2021.09.10-06.37.01:523][325]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltDataA21A0826414A02F51F1CB6AD5A965A3A.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
+[2021.09.10-06.37.01:540][325]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.10-06.37.01:540][325]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
+[2021.09.10-06.37.01:540][325]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.41.18:828][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.09.10-06.41.18:840][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.09.10-06.41.18:858][252]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMapE70D030541B50F3DA84308A07867158E.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap.umap'
+[2021.09.10-06.41.18:876][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/NewMap_BuiltData" FILE="../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset" SILENT=true
+[2021.09.10-06.41.18:888][252]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/NewMap_BuiltData4278D87B4450A7F73726FFB4A1B0E1D1.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Content/Map/NewMap_BuiltData.uasset'
+[2021.09.10-06.41.18:899][252]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.10-06.41.18:899][252]LogContentValidation: Display: Validating World /Game/Map/NewMap.NewMap
+[2021.09.10-06.41.18:899][252]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/NewMap_BuiltData.NewMap_BuiltData
+[2021.09.10-06.51.19:108][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.09.10-06.51.19:110][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/NewMap' took 0.010
+[2021.09.10-06.51.19:111][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/shit/nedladdning] ([1] browsable assets)...
+[2021.09.10-06.51.19:113][212]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/shit/nedladdning.nedladdning]
+[2021.09.10-06.51.19:113][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/shit/nedladdning]
+[2021.09.10-06.51.19:115][212]LogSavePackage: Moving '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/nedladdning_Auto16E3A46884ED12683DB19EDAADF91CA88.tmp' to '../../../../../../Users/gustav.anderssongut/Documents/GitHub/Deathbattle4.0/Saved/Autosaves/Game/shit/nedladdning_Auto1.uasset'
+[2021.09.10-06.51.19:116][212]LogFileHelpers: Auto-saving content packages took 0.006
